@@ -1,1 +1,1 @@
-# amazing-colors
+# Amazing colors
