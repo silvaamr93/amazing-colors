@@ -1,0 +1,235 @@
+body{
+overflow-x: hidden;
+background: #ecf0f1;
+}
+.container{
+max-width: 1200px;
+margin: 0 auto;}
+.clear{clear: both;}
+p{letter-spacing: 0.0625em;}
+::-moz-selection { /* Code for Firefox */
+    color: none;
+    background: none;
+}
+
+::selection {
+    color: none;
+    background: none;
+}
+/*************menu****************/
+    #header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:0;
+    }
+    .menu{
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    overflow: hidden;
+    display: none;
+    position: relative;
+    z-index: 600;
+    }
+
+    #header ul{
+    padding: 0;
+    margin: 0;
+    }
+    #header ul li{
+    list-style: none;
+    float: left;
+    width: 33.3333333333333333333333%;
+    text-align: center;
+    background-color: #fff;
+    height: 100%;
+    cursor: pointer;
+    -webkit-transition: 0.4s all ease;
+-moz-transition: 0.4s all ease;
+-ms-transition: 0.4s all ease;
+-o-transition: 0.4s all ease;
+transition: 0.4s all ease;
+    }
+   #header ul li:hover{
+    background-color: #2CA6B4;
+    color: #F8F9FA;   
+    }
+    #header ul li span{
+    margin: 75px 0 0; 
+    display: block;
+    cursor: inherit;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    }
+    #header button{
+    position: relative;
+    width: 80px;
+    height: 40px;
+    background:#fff;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    display: block;
+    margin: 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+    -webkit-transition: 0.4s all ease;
+-moz-transition: 0.4s all ease;
+-ms-transition: 0.4s all ease;
+-o-transition: 0.4s all ease;
+transition: 0.4s all ease;
+    }
+#header button i:first-child:hover{
+color: #2CA6B4;
+   } 
+#header button i:last-child:hover{
+color: #2CA6B4;
+   } 
+/*************endmenu***********/
+/****content****/
+#colors{
+width: 100%;
+
+}
+.colors
+{float: left;
+width: 25%;
+height: 25%;
+cursor: pointer;
+}
+/****end******/
+/*colors*/
+.color1{background-color:#4c9390;}
+.color2{background-color:#16c1f3;}
+.color3{background-color:#ccd9c8;}
+.color4{background-color:#c3a07d;}
+.color5{background-color:#6f5499;}
+.color6{background-color:#FFDFD0;}
+.color7{background-color:#dee9f1;}
+.color8{background-color:#f8f9fa;}
+.color9{background-color:#4084d0;}
+.color10{background-color:#e20c0e;}
+.color11{background-color:#4F8EF7;}
+.color12{background-color:#2CA6B4}
+.color13{background-color:#33C3F0;}
+.color14{background-color:#ff2a68;}
+.color15{background-color:#0da0cc;}
+.color16{background-color:#4ebcd8;
+position: relative;}
+/*values*/
+.colors textarea{
+width: 90%;
+height: 20%;
+float: left;
+outline: none;
+background-color: inherit;
+resize: none;
+border: none;
+cursor: pointer;
+color: #f8f9fa;
+text-transform: uppercase;
+font-family: 'Oswald', sans-serif;
+overflow: hidden;
+text-rendering: auto;
+
+}
+span .colors  textarea{
+color: #000;
+}
+span .colors i{
+color: #000;
+}
+.colors button{
+width: 10%;
+background-color: inherit;
+margin: 0;
+padding: 0;
+border: 0;
+color:#fff;
+float: left;
+outline: none;
+margin-top: 2%;
+}
+
+/*after copy*/
+
+.copyed{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 800px;
+background-color: #4ebcd8;
+color: #fff;
+font-size: 76px;
+overflow: hidden;
+z-index: 900000000000000000;
+display: none;
+}
+.copyed p
+{margin-top: 27%;
+text-align: center;
+text-transform: uppercase;
+font-family: 'Oswald', sans-serif;
+}
+.footer{
+margin-top: 130px;
+text-align: center;
+text-transform: uppercase;
+font-family: 'Oswald', sans-serif;
+color: #fff;
+font-size: 14px;
+}
+.footer a{
+
+color: #fff;
+text-decoration: none;
+-webkit-transition: 0.4s all ease;
+-moz-transition: 0.4s all ease;
+-ms-transition: 0.4s all ease;
+-o-transition: 0.4s all ease;
+transition: 0.4s all ease;
+}
+.footer a:hover{
+color: #000;
+}
+/*responsive*/
+@media all and (max-width: 566px){
+    #header ul li span{
+    font-size: 8px;
+    }
+    .colors{float:none;
+    width:100%;}
+    .footer{display:none;}
+    
+    
+}
+
+@media all and (max-width: 767px) and (min-width: 567px){
+       #header ul li span{
+    font-size: 10px;
+    }
+.colors{float:none;
+    width:100%;  } 
+    
+.footer{display:none;}
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
