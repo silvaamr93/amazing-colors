@@ -73,9 +73,6 @@ transition: 0.4s all ease;
     border-bottom-right-radius: 10px; 
     }
 #header button i{
-top:0;
-left:0;
-position:absolute;
 -webkit-transition: 0.4s all ease;
 -moz-transition: 0.4s all ease;
 -ms-transition: 0.4s all ease;
