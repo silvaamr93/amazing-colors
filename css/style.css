@@ -71,12 +71,11 @@ transition: 0.4s all ease;
     margin: 0 auto;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px; 
-    display:relative;
     }
 #header button i{
 top:0;
 left:0;
-display:absolute;
+position:absolute;
 -webkit-transition: 0.4s all ease;
 -moz-transition: 0.4s all ease;
 -ms-transition: 0.4s all ease;
